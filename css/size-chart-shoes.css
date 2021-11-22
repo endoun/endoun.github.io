@@ -1,0 +1,100 @@
+.size-chart__para {
+    box-sizing: border-box;
+    padding: 0 4% 0 4%;
+    display: flex;
+    flex-direction: column;
+}
+.size-chart__para--strong {
+    font-weight: 500;
+}
+.size-chart__ul {
+    list-style-image: url('../img/icon-endoun-color.svg');
+    list-style-position: inside;
+}
+.size-chart__para--endoun {
+    font-family: Endfont, Nunito, sans-serif;
+    font-weight: 500;
+}
+.size-chart__para--box {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.size-chart__para--img {
+    width: 100%;
+    height: auto;
+    align-items: center;
+}
+.size-chart__res {
+    width: 100%;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.size-chart__all {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.size-chart__all--end {
+    /* display: none; */
+    padding: 0.75% 0 0 0;
+}
+.size-chart__table {
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    border: 0.05vw solid #aaa;
+    border-collapse: collapse;
+}
+.size-chart__table--header--h3 {
+    width: 100%;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 2% 0;
+}
+.size-chart__table--row:nth-child(odd) { /* even | odd */
+    background: #eeeeee;
+}
+.size-chart__table--column {
+    width: 25%;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 3% 0;
+    border-width: 0 0.05vw 0 0;
+    border-style: solid;
+    border-color: #aaa;
+}
+.size-chart__table--column:last-child {
+    border: 0;
+}
+.size-chart__table--column:nth-child(2n+1) {
+    color: #15CBCC;
+}
+.size-chart__table--th {
+    background: #15CBCC !important;
+    color: #fff !important;
+    border: 0;
+}
+
+/* RESPONSIVE (min: Tablet) */
+    @media only screen and (orientation: landscape) {
+        .size-chart__res {
+            flex-direction: row;
+            box-sizing: border-box;
+            padding: 0 15%;
+        }
+        .size-chart__all {
+            width: 45%;
+        }
+        .size-chart__all--end {
+            display: block;
+        }
+        .size-chart__para--img {
+            width: 50%;
+        }
+    }
