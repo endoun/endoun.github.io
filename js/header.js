@@ -62,6 +62,7 @@ for (let m = 1; m < 8; ++m) {
         );
     }
 }
+$('.header__menu--item--6').attr('class', 'header__menu--item--none');
 $('.header__menu--item--7').attr('class', 'header__menu--item--none');
 $(document).ready(function() {
     $('.header__click').click(function() {
@@ -82,15 +83,14 @@ $(document).ready(function() {
     });
 });
 
-var arrayMenuItemNumber = Array('0', '1', '2', '3', '4', '5', '6');
+var arrayMenuItemNumber = Array('0', '1', '2', '3', '4', '5');
 var arrayMenuItemNameVN = Array(
     'Trang chủ',
     'Giày',
     'Quần Áo',
     'Đồ Ăn',
     'Bảng Xếp Hạng',
-    '"Eyes On The Stars"',
-    '"Feet On The Ground"',
+    'Darkness'
 );
 var arrayMenuItemNameLang = arrayMenuItemNameVN;
 for (let j = 0; j < arrayMenuItemNumber.length; ++j) {
