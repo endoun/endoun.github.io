@@ -1,7 +1,0 @@
-{
-  "run": {
-    "type": "file",
-    "file": "clothes/all-clothes.html",
-    "ignoreCurrent": true
-  }
-}

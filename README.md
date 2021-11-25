@@ -1,2 +1,2 @@
 # endoun.github.io
-ENDOUN Shop
+ENDOUN
