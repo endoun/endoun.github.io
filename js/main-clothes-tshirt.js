@@ -2,7 +2,7 @@ for (let countCl_Tshirt = 1; countCl_Tshirt < arraySku_ClTshirt.length; ++countC
     ShowPrice(arrayPrice_ClTshirt[countCl_Tshirt]);
     $('#mainClothes_Tshirt').append(
         '<div class="show__container">' +
-        '<a class="show__box" href="../shoes/product/tshirt/' + arraySku_ClTshirt[countCl_Tshirt] + '.html">' +
+        '<a class="show__box" href="../clothes/product/tshirt/' + arraySku_ClTshirt[countCl_Tshirt] + '.html">' +
         '<img class="show__box--img" src="../img/clothes/tshirt/' + arraySku_ClTshirt[countCl_Tshirt] + '-1.jpg" alt="' + arrayName_ClTshirt[countCl_Tshirt] + '" onerror="this.src=&#39;img/loading-pro.gif&#39;"/>' +
         '<div class="show__box--brand">T-Shirt</div>' +
         '<div class="show__box--name">' + arrayName_ClTshirt[countCl_Tshirt] + '</div>' +
