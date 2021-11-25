@@ -169,7 +169,7 @@ for (let countSh_Other = 0; countSh_Other < arrayShowSku_ShOther.length; ++count
     ShowPrice(arrayShowPrice_ShOther[countSh_Other]);
     $('#showShoes_Other').append(
         '<div class="show__container">' +
-        '<a class="show__box" href="shoes/product/other/' + arrayShowSku_ShOther[countSh_Other] + '.html">' +
+        '<a class="show__box" href="../shoes/product/other/' + arrayShowSku_ShOther[countSh_Other] + '.html">' +
         '<img class="show__box--img" src="../img/shoes/other/' + arrayShowSku_ShOther[countSh_Other] + '-1.jpg" alt="' + arrayShowName_ShOther[countSh_Other] + '" onerror="this.src=&#39;img/loading-pro.gif&#39;"/>' +
         '<div class="show__box--brand">Other</div>' +
         '<div class="show__box--name">' + arrayShowName_ShOther[countSh_Other] + '</div>' +
@@ -196,7 +196,7 @@ for (let countCl = 0; countCl < arrayNew_SkuClothes.length; ++countCl) {
     ShowPrice(arrayNew_PriceClothes[countCl]);
     $('#showClothes').append(
         '<div class="show__container">' +
-            '<a class="show__box" href="clothes/product/' + arrayNew_SrcImage[countCl] + arrayNew_SkuClothes[countCl] + '.html">' +
+            '<a class="show__box" href="../clothes/product/' + arrayNew_SrcImage[countCl] + arrayNew_SkuClothes[countCl] + '.html">' +
                 '<img class="show__box--img" src="../img/clothes/' + arrayNew_SrcImage[countCl] + arrayNew_SkuClothes[countCl] + '-1.jpg" alt="' + arrayNew_NameClothes[countCl] + '" onerror="this.src=&#39;img/loading-pro.gif&#39;"/>' +
                 '<div class="show__box--brand">' + arrayNew_Brand[countCl] + '</div>' +
                 '<div class="show__box--name">' + arrayNew_NameClothes[countCl] + '</div>' +
