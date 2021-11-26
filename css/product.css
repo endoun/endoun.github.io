@@ -858,7 +858,7 @@ body {
     height: 52.59375vw;
 }
 .video__para {
-    font-size: 16px;
+    font-size: 4.5vw;
     box-sizing: border-box;
     padding: 6% 1% 5% 1%;
 }
@@ -1167,7 +1167,7 @@ body {
         height: 23.625vw;
     }
     .video__para {
-        font-size: 50%;
+        font-size: 1.5vw;
         padding: 7% 2% 0% 2%;
         box-sizing: border-box;
     }
