@@ -1,7 +1,7 @@
 {
   "run": {
     "type": "file",
-    "file": "clothes/all-clothes.html",
+    "file": "clothes/product/sweater/clsw0003.html",
     "ignoreCurrent": true
   }
 }
