@@ -144,27 +144,27 @@ var arrayPrice_ShOther = Array(
 // CLOTHES - Sweater
 var arrayPrice_ClSweater = Array(
     '17022020',    // clsw0000
-    '175000',    // clsw0001
-    '175000',    // clsw0002
-    '175000',    // clsw0003
-    '175000',    // clsw0004
+    '145000',    // clsw0001
+    '145000',    // clsw0002
+    '145000',    // clsw0003
+    '145000',    // clsw0004
     '145000',    // clsw0005
-    '135000',    // clsw0006
-    '165000',    // clsw0007
-    '185000',    // clsw0008
+    '125000',    // clsw0006
+    '135000',    // clsw0007
+    '150000',    // clsw0008
     '145000',    // clsw0009
-    '135000'     // clsw0010
+    '125000'     // clsw0010
 );
 
 // CLOTHES - TShirt
 var arrayPrice_ClTshirt = Array(
     '17022020',    // clts0000
-    '85000',    // clts0001
-    '85000',    // clts0002
-    '85000',    // clts0003
-    '85000',    // clts0004
-    '85000',    // clts0005
-    '85000'     // clts0006
+    '89000',    // clts0001
+    '89000',    // clts0002
+    '89000',    // clts0003
+    '89000',    // clts0004
+    '89000',    // clts0005
+    '89000'     // clts0006
 );
 
 

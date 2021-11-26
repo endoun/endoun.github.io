@@ -1,9 +1,9 @@
 // Giảm toàn sàn bao nhiêu ( % )
-var proSalePerAll = 8;
-var proSalePer = 0;
+var proSalePerAll = 0;
+var proSalePer = 4;
 
 // Giảm toàn sàn bao nhiêu ( k )
-var proSaleMoneyAll = 13000;
+var proSaleMoneyAll = 0;
 var proSaleMoney = 0;
 
 var showPrice='';var showPrice_Dot='';var showPriceSale='';var showPriceSale_Dot='';var showInitial=0;var showLast=0;var costSaleMon=0;var costSalePer=0;var showSaleOff='';var aaaa=0
@@ -14,7 +14,7 @@ var total_lastsec = new Date(Dark_Tuesday[thisMonth] + timeLast).getTime();
 if ((now_mili >= total_Nearsec) && (now_mili < total_lastsec)) {
     var proSaleMoneyAll = 35000;
 }
-if(proSaleMoneyAll!=0){costSaleMon=proSaleMoneyAll;showSaleOff=proSaleMoneyAll.toString().slice(0,-3)+'k'}else{if(proSalePerAll!=0){costSalePer=proSalePerAll;showSaleOff=proSalePerAll+'%'}else{if(proSaleMoney!=0){costSaleMon=proSaleMoney;showSaleOff=proSaleMoneyAll.toString().slice(0,-3)+'k'}else{if(proSalePer!=0){costSalePer=proSalePer;showSaleOff=proSalePer+'%'}}}}
+if(proSaleMoneyAll!=0){costSaleMon=proSaleMoneyAll;showSaleOff=proSaleMoneyAll.toString().slice(0,-3)+'k'}else{if(proSalePerAll!=0){costSalePer=proSalePerAll;showSaleOff=proSalePerAll+'%'}else{if(proSaleMoney!=0){costSaleMon=proSaleMoney;showSaleOff=proSaleMoney.toString().slice(0,-3)+'k'}else{if(proSalePer!=0){costSalePer=proSalePer;showSaleOff=proSalePer+'%'}}}}
 if((proSaleMoneyAll==0)&&(proSaleMoney==0)&&(proSalePerAll==0)&&(proSalePer==0)){showSaleOff=''}
 var Price_Dot=function dotPrice(showInitial,showLast){switch(showInitial.toString().length,showLast.toString().length){case 4:{showPrice_Dot=showInitial.toString().slice(0,1)+'.'+showInitial.toString().slice(1,showInitial.toString().length);showPriceSale_Dot=showLast.toString().slice(0,1)+'.'+showLast.toString().slice(1,showLast.toString().length);break}
 case 5:{showPrice_Dot=showInitial.toString().slice(0,2)+'.'+showInitial.toString().slice(2,showInitial.toString().length);showPriceSale_Dot=showLast.toString().slice(0,2)+'.'+showLast.toString().slice(2,showLast.toString().length);break}
