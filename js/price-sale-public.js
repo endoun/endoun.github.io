@@ -12,7 +12,7 @@ var now_mili = (new Date).getTime();
 var total_Nearsec = new Date(Dark_Tuesday[thisMonth] + timeNear).getTime();
 var total_lastsec = new Date(Dark_Tuesday[thisMonth] + timeLast).getTime();
 if ((now_mili >= total_Nearsec) && (now_mili < total_lastsec)) {
-    var proSaleMoneyAll = 35000;
+    var proSaleMoneyAll = 35000; 
 }
 if(proSaleMoneyAll!=0){costSaleMon=proSaleMoneyAll;showSaleOff=proSaleMoneyAll.toString().slice(0,-3)+'k'}else{if(proSalePerAll!=0){costSalePer=proSalePerAll;showSaleOff=proSalePerAll+'%'}else{if(proSaleMoney!=0){costSaleMon=proSaleMoney;showSaleOff=proSaleMoney.toString().slice(0,-3)+'k'}else{if(proSalePer!=0){costSalePer=proSalePer;showSaleOff=proSalePer+'%'}}}}
 if((proSaleMoneyAll==0)&&(proSaleMoney==0)&&(proSalePerAll==0)&&(proSalePer==0)){showSaleOff=''}

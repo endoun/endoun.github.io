@@ -52,7 +52,7 @@ font-size:4.5vw;
 color:#000
 }
 
-.show__all {
+.show__all, #showAll {
 width:100vw;
 display:flex;
 justify-content:flex-start;
