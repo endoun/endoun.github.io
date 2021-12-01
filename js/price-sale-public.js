@@ -3,8 +3,8 @@ var proSalePerAll = 0;
 var proSalePer = 0;
 
 // Giảm toàn sàn bao nhiêu ( k )
-var proSaleMoneyAll = 0;
-var proSaleMoney = 15000;
+var proSaleMoneyAll = 15000;
+var proSaleMoney = 0;
 
 var showPrice='';var showPrice_Dot='';var showPriceSale='';var showPriceSale_Dot='';var showInitial=0;var showLast=0;var costSaleMon=0;var costSalePer=0;var showSaleOff='';var aaaa=0
 var thisMonth = (new Date).getMonth();
