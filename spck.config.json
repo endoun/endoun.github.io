@@ -1,0 +1,7 @@
+{
+  "run": {
+    "type": "file",
+    "file": "shoes/product/nike/shni0016.html",
+    "ignoreCurrent": true
+  }
+}

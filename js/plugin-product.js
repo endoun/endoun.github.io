@@ -1,0 +1,1 @@
+$("#plugin-comment").append('<div class="fb-comments" data-href="https://endoun.github.io/'+randomFolder+sku+'.html" data-numposts="5"></div>');

@@ -1,0 +1,1 @@
+$("body").append('<a class="back-on-top" href="#plugin-all"><i class="fas fa-angle-double-up"></i></a>'),$("#plugin").append('<div class="plugin-facebook" id="plugin-lisa"></div><div class="plugin-facebook" id="plugin-comment"></div><div id="fb-customer-chat" class="fb-customerchat"></div>')
