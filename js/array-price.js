@@ -153,7 +153,7 @@ var arrayPrice_ClSweater = Array(
     '125000',    // clsw0007
     '125000',    // clsw0008
     '125000',    // clsw0009
-    '125000'     // clsw0010
+    '125000'     // clsw0010 
 );
 
 // CLOTHES - TShirt
